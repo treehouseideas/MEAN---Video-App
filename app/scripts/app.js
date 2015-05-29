@@ -22,14 +22,6 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
-      .when('/movies', {
-        templateUrl: 'views/movies.html',
-        controller: 'MoviesCtrl'
-      })
-      .when('/movies', {
-        templateUrl: 'views/movies.html',
-        controller: 'MoviesCtrl'
-      })
       .otherwise({
         redirectTo: '/'
       });
